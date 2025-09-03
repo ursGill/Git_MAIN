@@ -4,19 +4,19 @@ First repo
 Author- Gill Saab
 
 
-Configuring Git
+ <i><b>Configuring Git </b></i> :
 
-git config --global user.name "MY NAME"
-git config --global user.email "someone@email.com"
-git config --list
+git config --global user.name "MY NAME" <br> 
+git config --global user.email "someone@email.com" <br>
+git config --list  <br>
 
-Clone & Status
+Clone & Status   <br>
 
-Clone - Cloning a repository on our local machine
-git clone<-some link->
+<tb>Clone - Cloning a repository on our local machine <br>
+git clone<-some link->   <br>
 
-Status - Displays the state of the code
-git status
+Status - Displays the state of the code   <br>
+git status  <br>
 
    untracked : new files that git doesn't yet track
 
@@ -30,15 +30,16 @@ git status
 change/modified    :-> add(staged) -> commit(unchanged)
 newfile(untracked) 
 
-      Add & Commit :-
-add -> adds new or changed files in your working directory to the Git Staging area.  git add <-file name-> or git add .(for more files at once)
+Add & Commit :-
+add -> adds new or changed files in your working directory to the Git Staging area. <br> 
+git add <-file name-> or git add .(for more files at once) <br>
 
-commit -> it is the record of change
-git commit -m "Some Message"
+commit -> it is the record of change <br>
+git commit -m "Some Message"  <br>
 
-     Push Command :-
-push -> upload local repo content to remote repo
-git push origin main  or  git push origin -u main
+ Push Command :-
+push -> upload local repo content to remote repo  <br>
+         git push origin main  or  git push origin -u main  
 
   Init Command :-
 
@@ -55,18 +56,18 @@ Local Git: Github repo -> clone -> changes -> add -> commit -> push
 
    Branch Commands :-
 
-git branch  (to check branch)
-git branch -M main  (to rename branch)
-git checkout <- branch name->  (to navigate)
-git checkout -b <-new branch name-> (to create new branch)
+git branch  (to check branch) <br>
+git branch -M main  (to rename branch)  <br>
+git checkout <- branch name->  (to navigate)  <br>
+git checkout -b <-new branch name-> (to create new branch) <br>
 
-git branch -d <-branch name->  (to delete branch)
+git branch -d <-branch name->  (to delete branch) <br>
 
 
-   Merging Code:-
+<i>  <b> Merging Code:- </b></i> <br>
 way 1:  
-git diff <-branch name->  (to compare branches,comments,file & more)
-git merge<-branch name->  (to merge 2 branches )
+git diff <-branch name->  (to compare branches,comments,file & more) <br>
+git merge<-branch name->  (to merge 2 branches ) <br>
 
 way 2:
 Create a PR
