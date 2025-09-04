@@ -10,7 +10,7 @@ git config --global user.name "MY NAME"
 git config --global user.email "someone@email.com"   
 git config --list   
 ```
-Clone & Status   <br>
+Clone & Status   
 
 <tb>Clone - Cloning a repository on our local machine <br>
 ```
@@ -37,27 +37,31 @@ add -> adds new or changed files in your working directory to the Git Staging ar
 ```
 git add <-file name->
 ```                                                       
-or (for more files at once)    <br>
+Or (for add more files at once)    <br>
 ``` 
  git add  
  ```
 commit -> it is the record of change <br>
+```
 git commit -m "Some Message"  <br>
+```
 
  Push Command :-
 push -> upload local repo content to remote repo  <br>
-         git push origin main  or  git push origin -u main  
-
+```
+git push origin main  or  git push origin -u main  
+```
   Init Command :-
 
 init -> used to create a new git repo 
-    git init
+```
+   git init
    git remote add origin <-link->
    git remote -v  (to verify remote)
    git branch  (to check branch)
    git branch -M main  ( to rename branch)
    git push origin main
-
+```
   WorkFlow :-   
 Local Git: Github repo -> clone -> changes -> add -> commit -> push
 
@@ -73,8 +77,17 @@ git branch -d <-branch name->          (to delete branch)
 
 <i>  <b> Merging Code:- </b></i> <br>
 way 1:  
-git diff <-branch name->  (to compare branches,comments,file & more) <br>
-git merge<-branch name->  (to merge 2 branches ) <br>
+
+ (to compare branches,comments,file & more)
+ 
+```
+git diff <-branch name-> 
+```
+(to merge 2 branches )
+```
+git merge<-branch name->  
+```
+<br>
 
 way 2:
 Create a PR
