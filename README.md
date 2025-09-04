@@ -16,7 +16,7 @@ git config --list
 ```
 git clone<-some link->   
 ```
-Status - Displays the state of the code.   \
+Status - Displays the state of the code
 ```
 git status  
 ```
@@ -32,7 +32,7 @@ git status
 change/modified    :-> add(staged) -> commit(unchanged)
 newfile(untracked) 
 
-**Add & Commit :-**
+**Add & Commit :-**\
 add -> adds new or changed files in your working directory to the Git Staging area.    <br>                                 
 ```
 git add <-file name->
@@ -47,7 +47,7 @@ commit -> it is the record of change <br>
 git commit -m "Some Message"  
 ```
 
- **Push Command :-**
+ **Push Command :-**\
 push -> upload local repo content to remote repo  <br>
 ```
 git push origin main  or  git push origin -u main  
