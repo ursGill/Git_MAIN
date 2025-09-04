@@ -1,5 +1,5 @@
 # GOPI_MAIN
-First repo
+**First repo**
 <br>
 Author- Gill Saab
 
@@ -10,13 +10,13 @@ git config --global user.name "MY NAME"
 git config --global user.email "someone@email.com"   
 git config --list   
 ```
-Clone & Status   
+**Clone & Status**
 
 <tb>Clone - Cloning a repository on our local machine <br>
 ```
 git clone<-some link->   
 ```
-Status - Displays the state of the code   <br>
+Status - Displays the state of the code.   \
 ```
 git status  
 ```
@@ -32,26 +32,27 @@ git status
 change/modified    :-> add(staged) -> commit(unchanged)
 newfile(untracked) 
 
-Add & Commit :-
+**Add & Commit :-**
 add -> adds new or changed files in your working directory to the Git Staging area.    <br>                                 
 ```
 git add <-file name->
-```                                                       
-Or (for add more files at once)    <br>
+```
+ __Or__
+(for add more files at once)    <br>
 ``` 
- git add  
+ git add .
  ```
 commit -> it is the record of change <br>
 ```
-git commit -m "Some Message"  <br>
+git commit -m "Some Message"  
 ```
 
- Push Command :-
+ **Push Command :-**
 push -> upload local repo content to remote repo  <br>
 ```
 git push origin main  or  git push origin -u main  
 ```
-  Init Command :-
+  **Init Command :-**
 
 init -> used to create a new git repo 
 ```
