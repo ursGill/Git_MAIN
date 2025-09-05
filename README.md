@@ -92,24 +92,24 @@ git merge<-branch name->
 ```
 <br>
 
-way 2:
-Create a PR
-***Pull Command***
+__Way 2:__\
+Create a PR\
+***Pull Command***:
 Used to fetch and download content from a remote repo and immediately update the local repo to match that content
 ```
 git pull origin main
 ```
 ***Undoing Changes***\
-__Case 1__: Staged Changes
+__Case 1__: staged changes
 ```
 git reset <-file name->
 git reset
 ```
-__Case 2__: Commited Changes (for one commmit)
+__Case 2__: commited changes (for one commmit)
 ```
 git reset HEAD~1
 ```
-__Case 3__: Commited Changes (for many commits)
+__Case 3__: commited changes (for many commits)
 ```
 git reset <-commit hash->
 git reset --hard <-commit hash->
