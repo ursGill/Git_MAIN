@@ -70,12 +70,12 @@ Local Git: Github repo -> clone -> changes -> add -> commit -> push
 
    Branch Commands :-
 ```
-git branch                       (to check branch) 
-git branch -M main        (to rename branch)  
+git branch                          (to check branch) 
+git branch -M main                  (to rename current branch)  
 git checkout <- branch name->       (to navigate)  
-git checkout -b <-new branch name->      (to create new branch) 
+git checkout -b <-new branch name->     (to create new branch) 
 
-git branch -d <-branch name->          (to delete branch) 
+git branch -d <-branch name->           (to delete branch) 
 ```
 
 <i>  <b> Merging Code:- </b></i> <br>
@@ -99,7 +99,7 @@ Used to fetch and download content from a remote repo and immediately update the
 ```
 git pull origin main
 ```
-***Undoing Changes***
+***Undoing Changes***\
 __Case 1__: Staged Changes
 ```
 git reset <-file name->
