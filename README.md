@@ -114,3 +114,5 @@ __Case 3__: commited changes (for many commits)
 git reset <-commit hash->
 git reset --hard <-commit hash->
 ```
+***Fork***\
+A fork is a new repository that shares code and visibility settings with original "upstream" (Fork is a rough copy)
