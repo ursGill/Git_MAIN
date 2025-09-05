@@ -8,7 +8,7 @@ Author- Gill Saab
 ```
 git config --global user.name "MY NAME"   
 git config --global user.email "someone@email.com"   
-git config --list   
+git config --list   <-- to view configurations -->
 ```
 **Clone & Status**
 
@@ -29,8 +29,8 @@ git status
    unmodified: unchanged
 
 
-change/modified    :-> add(staged) -> commit(unchanged)
-newfile(untracked) 
+change/modified /newfile(untracked) :-> add(staged) -> commit(unchanged)
+ 
 
 **Add & Commit :-**\
 add -> adds new or changed files in your working directory to the Git Staging area.    <br>                                 
@@ -79,7 +79,7 @@ git branch -d <-branch name->           (to delete branch)
 ```
 
 <i>  <b> Merging Code:- </b></i> <br>
-way 1:  
+__Way 1:__
 
  (to compare branches,comments,file & more)
  
