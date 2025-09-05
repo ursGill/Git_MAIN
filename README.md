@@ -57,10 +57,12 @@ git push origin main  or  git push origin -u main
 init -> used to create a new git repo 
 ```
    git init
+   git add .
+   git commit -m "Message"
    git remote add origin <-link->
    git remote -v  (to verify remote)
    git branch  (to check branch)
-   git branch -M main  ( to rename branch)
+   git branch -M main  ( to rename current branch)
    git push origin main
 ```
   WorkFlow :-   
@@ -84,7 +86,7 @@ way 1:
 ```
 git diff <-branch name-> 
 ```
-(to merge 2 branches )
+(to merge current branch to <-branch name-> given )
 ```
 git merge<-branch name->  
 ```
@@ -92,3 +94,23 @@ git merge<-branch name->
 
 way 2:
 Create a PR
+***Pull Command***
+Used to fetch and download content from a remote repo and immediately update the local repo to match that content
+```
+git pull origin main
+```
+***Undoing Changes***
+__Case 1__: Staged Changes
+```
+git reset <-file name->
+git reset
+```
+__Case 2__: Commited Changes (for one commmit)
+```
+git reset HEAD~1
+```
+__Case 3__: Commited Changes (for many commits)
+```
+git reset <-commit hash->
+git reset --hard <-commit hash->
+```
