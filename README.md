@@ -134,7 +134,7 @@ __Use Case__ : For ignoring sensitive ,unecessary files/folders
    * For files eg. ignoring all .log , .exe files
      ```
      *.log    <-ignore all .log files->
-     *.exe    <-ingnore all .exe files->
+     *.exe    <-ignore all .exe files->
      ```
      ,You can use extension of files to ignore them
 
