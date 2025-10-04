@@ -155,5 +155,5 @@ __Use Case__ : For ignoring sensitive ,unecessary files/folders
 __Note :__ Tracked files are not ignore by adding them in .gitignore file
 you can use this command for untrack them
 ```
-git rm --cached filename
+git rm --cached <-filename/format->         <- file/format you want to untracked->
 ```
