@@ -117,7 +117,8 @@ git reset --hard <-commit hash->
 ***Fork***\
 A fork is a new repository that shares code and visibility settings with original "upstream" (Fork is a rough copy)
 
-***Creating .gitignore file***\
+***Creating .gitignore file***
+
 __Use Case__ : For ignoring sensitive ,unecessary files/folders
 
 1. By Using git bash
@@ -136,12 +137,14 @@ __Use Case__ : For ignoring sensitive ,unecessary files/folders
      *.exe    <-ingnore all .exe files->
      ```
      ,You can use extension of files to ignore them
+
   * For folders
     ```
     <-foldername->/      <-for single folder->
     build*/              <-ignore all folders starts with build->
     
     ```
+    
  * For except file that you don't want to ignore
    use (!) for exclude file/folder to be ignored
    ```
@@ -149,3 +152,8 @@ __Use Case__ : For ignoring sensitive ,unecessary files/folders
    !important.log     <-important file name->
    ```
     
+__Note :__ Tracked files are not ignore by adding them in .gitignore file
+you can use this command for untrack them
+```
+git rm --cached filename
+```
