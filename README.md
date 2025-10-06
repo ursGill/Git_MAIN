@@ -158,14 +158,15 @@ you can use this command for untrack them
 git rm --cached <-filename/format->         <- file/format you want to untracked->
 ```
 
-___How to Solve Error: failed to push some refs to [remote repo]___
-**step:1** Fetch and Merge Changes
+___How to Solve Error: failed to push some refs to [remote repo]___\
+**Step : 1** Fetch and Merge Changes
 ```
 git fetch origin
 git merge origin/main
 ```
-**step:2**
-___Alternatively,you can use git pull which combines both fetch and merge__
+**Step : 2**
+___Alternatively,
+you can use git pull which combines both fetch and merge__
 ```
 git pull origin main
 ```
